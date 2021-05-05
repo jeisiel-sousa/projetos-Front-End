@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+   <head>
+      
+      <link rel = "shortcurt icon" href = "/assets/netflix-logo.ico" type = "image/x-icon" />
+      <link rel = "stylesheet" href = "/styles/style.css" />
+      
+      <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+      
+      <title>Home | Netflix </title>
+   </head>
+   <body>
+      <header class = "header">
+         <div class = "menu__left">
+         <img class = "logo" src ="/assets/netflix.svg" alt = "Netflix" />
+         </div>
+         <div class = "meu__right">
+            <a href = "#">
+          <img src="https://img.icons8.com/ios-filled/50/000000/globe--v1.png" class = "icon-earth" alt = "Earth" />
+         </a>
+         <a href ="#">
+            <button class ="idiomas">Português</button>
+           
+         </a>
+         <a href = "#">
+         <img src = "/assets/triangle.png" class = "triangle-icon" alt = "select" />
+         </a>
+         <a href = "#">
+            <button class ="entrar">Entrar</button>
+         </a>
+         </div>
+      </header>
+      <main class = "main">
+         
+         <h1>Filmes, séries e muito mais. Sem limites.</h1>
+ 
+         <p>Assista onde quiser. Cancele quando quiser.</p>
+<spam>Pronto para assistir? Informe seu email para criar ou reiniciar sua assinatura.</spam>
+ 
+   <input type ="email" placeholder = "Email" maxlength="21" class = "email" required = "required" />
+   <a href = "#">
+   <button type = "submit" class = "cadastrar">Vamos Lá</button>
+   <img src = "/assets/arrow.png" class = "arrow-icon" alt = "Arrow" />
+   </a>
+      </main>
+   </body>
+</html>
